@@ -9,6 +9,7 @@ setuptools.setup(
     description='',
     long_description=Path('README.md').read_text(),
     long_description_content_type="text/markdown",
+    url="https://github.com/andersonbrands/pytestcwd",
     packages=setuptools.find_packages(),
     install_requires=[
         'pytest',
