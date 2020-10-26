@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name='pytestcwd',
-    version='version: 0.0.0'.replace('version: ', ''),
+    version='version: 0.1.0-dev'.replace('version: ', ''),
     author='Anderson Brandao',
     author_email='anderson.brands@gmail.com',
     description='',
