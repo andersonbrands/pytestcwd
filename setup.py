@@ -10,6 +10,9 @@ setuptools.setup(
     long_description=Path('README.md').read_text(),
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
+    install_requires=[
+        'pytest',
+    ],
     entry_points={
         'console_scripts': ['pytestcwd=pytestcwd.__main__:console_script_entry']
     },

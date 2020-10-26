@@ -1,13 +1,13 @@
+import os
 import sys
-from typing import List
 
 
-def main(params: List[str] = None):
-    pass
+import pytest
 
 
 def console_script_entry():
-    main(sys.argv[1:])
+    sys.path.insert(0, os.getcwd())
+    pytest.main(sys.argv[1:])
     pass
 
 
