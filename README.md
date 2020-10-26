@@ -18,4 +18,4 @@ pip install pytestcwd
 ```
 pytestcwd tests
 ```
-### v0.1.0-dev
+### v0.1.0
